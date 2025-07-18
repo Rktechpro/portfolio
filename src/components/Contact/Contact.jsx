@@ -100,7 +100,7 @@ const Contact = () => {
         </h2>
       </div>
 
-      <div className="flex flex-col md:flex-row md:gap-8 justify-center items-start bg-[#5a585849] rounded-xl p-6 md:p-10 mx-auto max-w-6xl">
+      <div className="flex flex-col md:flex-row md:gap-8 justify-center items-start  bg-gradient-to-bl bg-[#fcfcfc2b] rounded-xl p-6 md:p-10 mx-auto max-w-6xl backdrop-blur-2xl">
         {/* Contact Info */}
         <div className="w-full md:w-1/2 mb-10 md:mb-0">
           <h3 className="text-xl md:text-2xl text-[#FF5E11]  mb-16 text-center md:text-left">
@@ -194,7 +194,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="px-6 py-3 bg-indigo-500 text-white rounded-lg font-semibold hover:bg-indigo-600 transition"
+              className="px-6 py-3 bg-indigo-500 text-white rounded-lg font-semibold hover:bg-indigo-600 transition cursor-pointer"
             >
               Submit
             </button>
