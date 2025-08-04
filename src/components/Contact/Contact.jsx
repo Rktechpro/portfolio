@@ -144,7 +144,7 @@ const Contact = () => {
               />
             </div>
 
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col gap-1 ">
               <label htmlFor="email" className="text-[#1dc91d] font-medium">
                 Email
               </label>
@@ -194,7 +194,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="px-6 py-3 bg-indigo-500 text-white rounded-lg font-semibold hover:bg-indigo-600 transition cursor-pointer"
+              className="px-6 py-3 bg-[#FF5E11] text-white rounded-lg font-semibold hover:bg-indigo-600 transition cursor-pointer"
             >
               Submit
             </button>
