@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
-  const resumeUrl = import.meta.env.BASE_URL + "pdf/Ravi_final_CV.pdf";
+  const resumeUrl = import.meta.env.BASE_URL + "pdf/Rk_fullstack_mern.pdf";
   useEffect(() => {
     // Check if the download has already happened in this session
     const hasDownloaded = sessionStorage.getItem("resumeDownloaded");
