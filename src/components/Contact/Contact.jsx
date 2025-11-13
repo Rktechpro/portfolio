@@ -28,7 +28,7 @@ const Contact = () => {
     {
       icon: <MapPin className="text-2xl text-stone-700" />,
       lable: "Address",
-      name: "Bijnor",
+      name: "New Ashok Nagar D-60 Delhi 110091 ",
     },
     {
       icon: <Phone className="text-2xl text-stone-700" />,
